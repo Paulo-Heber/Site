@@ -1,0 +1,48 @@
+.habilities {
+    height: 100vh;
+}
+
+.habilities .conteiner>div {
+    display: flex;
+}
+
+.habilities .title {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.hardSkills {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hardSkills img {
+    max-width: 50rem;
+}
+
+.hardSkills .languages {
+    max-width: 30vw;
+}
+
+.skillType {
+    font-size: 3.5rem;
+}
+
+.softSkills {
+    flex-direction: column;
+}
+
+.skillCard {
+    max-width: 55rem;
+    margin-left: 2rem;
+}
+
+.skillCard :first-child {
+    border-bottom: solid 3px;
+    font-size: 2.5rem;
+}
+
+.skillCard :last-child {
+    font-size: 1.8rem;
+    margin-block: 1rem;
+}

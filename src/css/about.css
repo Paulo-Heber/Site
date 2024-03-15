@@ -1,0 +1,25 @@
+.about .conteiner img {
+    max-width: 60rem;
+}
+
+.personalInfos p {
+    font-size: 1.8rem;
+}
+
+.about .languages{
+    margin-top: 5rem;
+}
+
+.button,
+.button :first-child {
+    transition: ease-in-out 0.15s;
+}
+
+.button:hover,
+.button:hover :first-child {
+    background-color: #0086ce;
+}
+
+.button:active {
+    box-shadow: 0 3px 2px #02537c inset;
+}

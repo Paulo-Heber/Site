@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem 0 2rem;
+    position: sticky;
+    max-width: 100%;
+    background-color: #111926;
+    top: 0;
+}
+
+.logoConteiner {
+    align-items: center;
+    display: flex;
+}
+
+.developerTitle {
+    flex-direction: column;
+    align-items: center;
+    font-size: 5rem;
+    display: flex;
+}
+
+.developerTitle p {
+    font-size: 1.5rem;
+}
+
+.logo {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 2rem;
+    border: solid 4px;
+    font-size: 1.5rem;
+    padding: 3.5rem;
+    height: 0.1rem;
+    width: 0.1rem;
+    display: flex;
+}
+
+.logo:hover,
+.logo:hover p,
+.logo:hover :last-child {
+    cursor: pointer;
+    color: #0DA4F4;
+}
+
+.logo p {
+    font-size: 3rem;
+}
+
+nav {
+    font-size: 4rem;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.navigation {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+.navigation:hover :first-child,
+.navigation:hover p {
+    cursor: pointer;
+    color: #0DA4F4;
+}

@@ -1,0 +1,9 @@
+.contact{
+    height: 10rem;
+    max-height: 30vh;
+}
+
+.contact .netWorks{
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}

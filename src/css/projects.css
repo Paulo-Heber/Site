@@ -1,0 +1,56 @@
+.projects {
+    background-image: url(../img/backgrounds/background-projects.png);
+}
+
+.projects .title {
+    margin-top: 10rem;
+}
+
+.projects .conteiner img {
+    border-radius: 2rem;
+    max-width: 50rem;
+}
+
+.projectsInfos {
+    max-width: 53rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectsInfos :first-child {
+    letter-spacing: 0.07rem;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.projectsInfos p {
+    font-size: 2rem;
+    letter-spacing: 0.005rem;
+    margin-bottom: 3rem;
+}
+
+.projectsInfos :last-child {
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    padding: 1rem 3rem;
+}
+
+.projectSelection input[type="radio"] {
+    appearance: none;
+    border: solid 1px #0DA4F4;
+    border-radius: 50%;
+    margin: 3rem 1rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.projectSelection input[type="radio"]:checked {
+    background-image: radial-gradient(#fff 25%, #0DA4F4 50%);
+}
+
+.projects .sections {
+    justify-content: center;
+}
