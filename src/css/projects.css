@@ -24,14 +24,15 @@
     margin-bottom: 1rem;
 }
 
-.projectsInfos p {
-    font-size: 2rem;
+.projectsDescription {
+    font-size: calc(0.5rem + 1vw);
     letter-spacing: 0.005rem;
     margin-bottom: 3rem;
+    max-width: 80vw;
 }
 
 .projectsInfos :last-child {
-    font-size: 2rem;
+    font-size: calc(0.5rem + 1vw);
     font-weight: bold;
     border-radius: 3rem;
     padding: 1rem 3rem;
@@ -53,4 +54,10 @@
 
 .projects .sections {
     justify-content: center;
+}
+
+@media(max-width:980px) {
+    .projects .conteiner img {
+       scale: 50%;
+    }
 }

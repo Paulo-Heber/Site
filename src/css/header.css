@@ -1,13 +1,14 @@
 header {
     display: flex;
-    height: 10rem;
+    min-height: 10rem;
     align-items: center;
     justify-content: space-between;
-    padding: 0 4rem 0 2rem;
+    padding: 0 2rem;
     position: sticky;
     max-width: 100%;
     background-color: #111926;
     top: 0;
+    flex-wrap: wrap;
 }
 
 .logoConteiner {
@@ -55,6 +56,7 @@ nav {
     font-size: 4rem;
     display: flex;
     gap: 3.5rem;
+    flex-wrap: wrap;
 }
 
 .navigation {
@@ -68,4 +70,13 @@ nav {
 .navigation:hover p {
     cursor: pointer;
     color: #0DA4F4;
+}
+
+@media(max-width:980px) {
+    header {
+      justify-content: center;
+      padding-block: 2rem;
+      gap: 2rem;
+    }
+
 }

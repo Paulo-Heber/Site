@@ -4,15 +4,15 @@
     justify-content: center;
     background-size: cover;
     letter-spacing: 0.3rem;
-    padding-top: 8rem;
+    padding-block: 8rem;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     gap: 23rem;
 }
 
 .home img {
-    width: 40rem;
-    height: 40rem;
+    max-width: 40rem;
+    max-height: 40rem;
     border-radius: 50%;
 }
 
@@ -39,6 +39,7 @@
     display: flex;
     gap: 5.3rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .netWorks * {
@@ -72,4 +73,20 @@
 .location :last-child {
     font-size: 2rem;
     letter-spacing: 0.05rem;
+}
+
+@media(max-width:980px) {
+    .home {
+        padding-block: 2rem;
+        gap: 0rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home img{
+   max-width: 50px;
+    }
+
+    .mainInfos {
+        align-items: center;
+    }
 }

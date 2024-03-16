@@ -6,7 +6,9 @@
     color: #ffffff;
 }
 
-html{scroll-behavior: smooth;}
+html {
+    scroll-behavior: smooth;
+}
 
 a {
     text-decoration: none;
@@ -20,7 +22,6 @@ body {
     background-color: #090d14;
     height: 100vh;
     position: relative;
-    font-family: o;
     font-family: "Open Sans", sans-serif;
-    
+
 }
