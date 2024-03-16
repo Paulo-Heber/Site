@@ -27,11 +27,13 @@
 
 .softSkills {
     flex-direction: column;
+    text-align: center;
 }
 
 .skillCard {
     max-width: 55rem;
     margin-left: 2rem;
+    text-align: left;
 }
 
 .skillCard :first-child {
@@ -46,10 +48,10 @@
 
 @media(max-width:980px) {
     .hardSkills img {
-       scale: 50%;
+        scale: 50%;
     }
 
-    .softSkills{
+    .softSkills {
         scale: 80%;
     }
 }

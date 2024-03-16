@@ -53,10 +53,11 @@ header {
 }
 
 nav {
+    justify-content: center;
     font-size: 4rem;
+    flex-wrap: wrap;
     display: flex;
     gap: 3.5rem;
-    flex-wrap: wrap;
 }
 
 .navigation {
@@ -73,10 +74,14 @@ nav {
 }
 
 @media(max-width:980px) {
+
     header {
-      justify-content: center;
-      padding-block: 2rem;
-      gap: 2rem;
+        justify-content: center;
+        padding-block: 2rem;
+        gap: 2rem;
     }
 
+    .developerTitle {
+        font-size: 4rem;
+    }
 }
