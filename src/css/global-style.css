@@ -6,11 +6,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
 
 .conteiner {
     display: flex;
-    gap: 10rem;
+    gap: 8rem;
     flex-wrap: wrap;
     justify-content: center;
 }
