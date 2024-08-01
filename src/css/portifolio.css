@@ -1,33 +1,44 @@
-.portifolio{
+.portifolio {
     background-image: url(../img/backgrounds/background-portifólio.png);
 }
 
-.portifolio .conteiner{
+.portifolio .conteiner {
     justify-content: center;
     flex-wrap: wrap;
     max-width: 110rem;
     gap: 2rem;
 }
 
-.projectCard{
+.projectCard {
     background-color: #090d14;
     font-size: 3rem;
     border-radius: 1rem;
-    padding: 1rem;
     cursor: pointer;
-    
     height: 35rem;
     gap: 1rem;
     display: flex;
     flex-direction: column;
 }
-
-.projectCard img{
- max-width: 23rem;
- border-radius: 1rem;
- box-shadow: 1px 1px 10px 0px #fff;
+.projectCard:nth-child(n){
+    height: 40%;
 }
 
-.projects .hidden{
+.projectCard .projectInCartInfos {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+    font-size: 3rem;
+     margin-block: 2rem;
+}
+.projectInCartInfos div:nth-child(n){
+    font-size: 2rem;
+}
+
+.projectCard img {
+    max-width: 23rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.projects .hidden {
     display: none;
 }
